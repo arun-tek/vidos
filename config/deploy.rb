@@ -16,6 +16,9 @@ set :keep_releases, 3
 # Skip migration if files in db/migrate were not modified
 # Defaults to false
 set :conditionally_migrate, true
+set :stage, :production
+set :ssh_options, { forward_agent: true, user: fetch(:user), keys: %w(~/.ssh/id_rsa.pub) }
+
 
 # ================================================
 # ============ From Custom Rake Tasks ============

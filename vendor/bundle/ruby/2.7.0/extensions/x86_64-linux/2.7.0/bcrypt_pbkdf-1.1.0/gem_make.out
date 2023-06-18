@@ -1,0 +1,19 @@
+current directory: /home/hp/vidos/vendor/bundle/ruby/2.7.0/gems/bcrypt_pbkdf-1.1.0/ext/mri
+/home/hp/.rvm/rubies/ruby-2.7.0/bin/ruby -I /home/hp/.rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0 -r ./siteconf20230618-81243-18oqfqj.rb extconf.rb
+creating Makefile
+
+current directory: /home/hp/vidos/vendor/bundle/ruby/2.7.0/gems/bcrypt_pbkdf-1.1.0/ext/mri
+make "DESTDIR=" clean
+
+current directory: /home/hp/vidos/vendor/bundle/ruby/2.7.0/gems/bcrypt_pbkdf-1.1.0/ext/mri
+make "DESTDIR="
+compiling bcrypt_pbkdf.c
+compiling bcrypt_pbkdf_ext.c
+compiling blowfish.c
+compiling explicit_bzero.c
+compiling hash_sha512.c
+linking shared-object bcrypt_pbkdf_ext.so
+
+current directory: /home/hp/vidos/vendor/bundle/ruby/2.7.0/gems/bcrypt_pbkdf-1.1.0/ext/mri
+make "DESTDIR=" install
+/usr/bin/install -m 0755 bcrypt_pbkdf_ext.so ./.gem.20230618-81243-9t5xxt
